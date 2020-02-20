@@ -1,0 +1,16 @@
+{
+    "name": "endeavors/fhir-base",
+    "license": "Unlicense",
+    "require": {
+        "php": "^7.1",
+        "psr/http-message": "^1.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Endeavors\\Fhir\\Http\\Contracts\\Base\\": ""
+        }
+    },
+    "suggest": {
+        "endeavors/fhir-identification": "Provides DSTU2 base abstractions"
+    }
+}
